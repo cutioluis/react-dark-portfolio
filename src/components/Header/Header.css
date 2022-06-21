@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.header-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(99.51deg, #cbbee7 9.03%, #ffffff 89.53%);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.header-title-box {
+  border-radius: 10px;
+  padding: 1.5rem 3rem;
+  background-color: var(--gray-color);
+  color: var(--white-color);
+}
