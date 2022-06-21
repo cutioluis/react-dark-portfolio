@@ -1,0 +1,9 @@
+.container-about {
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--white-smoke-color);
+}
+
+.about-right img {
+  border-radius: 100%;
+}

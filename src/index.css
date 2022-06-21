@@ -6,7 +6,7 @@
   --white-smoke-color: #8b949e;
   --white-color: #e5e5e5;
 
-  --gradient-color: background: linear-gradient(99.51deg, #CBBEE7 9.03%, #FFFFFF 89.53%);
+  --gradient-color: linear-gradient(99.51deg, #cbbee7 9.03%, #ffffff 89.53%);
 }
 
 * {
@@ -21,4 +21,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--white-smoke-colorcolor);
+}
+
+.purple-text {
+  color: var(--purple-color);
+}
+
+.purple-text:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.white-text {
+  color: var(--white-color);
 }
