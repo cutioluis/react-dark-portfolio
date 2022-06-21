@@ -36,3 +36,7 @@ body {
 .white-text {
   color: var(--white-color);
 }
+
+.gray-text {
+  color: var(--white-smoke-color);
+}

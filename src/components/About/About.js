@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <section className="container-about">
       <div className="about-left">
-        <h2 className="white-text">React </h2>
+        <h2 className="white-text">Luis</h2>
         <p>
           Hola Mi nombre es Luis y me encanta Desarrollar productos increibles
           para el mundo, Llevo desarro llando hace mas de 2 años usando Reactjs
