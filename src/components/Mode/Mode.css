@@ -1,0 +1,24 @@
+.container-mode {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  color: var(--purple-smoke-color);
+}
+
+.container-icon {
+  cursor: pointer;
+  padding: 0.5rem 0.6rem;
+  background: var(--gray-color);
+  border-radius: 10px;
+  margin: 0 1rem;
+}
+
+.mode-icon {
+  font-size: 20px;
+}
+
+.container-icon:hover {
+  transition: 250ms;
+  color: var(--gray-color);
+  background: var(--gradient-color);
+}
