@@ -3,19 +3,16 @@ import iconImage from "../../images/logo.jpg";
 
 export const About = () => {
   return (
-    <section className="container-about">
+    <section className="container container-about">
       <div className="about-left">
-        <h2 className="white-text">Luis</h2>
+        <span className="purple-text">Luis Cutiopala ✋</span>
         <p>
-          Hola Mi nombre es Luis y me encanta Desarrollar productos increibles
-          para el mundo, Llevo desarro llando hace mas de 2 años usando Reactjs
-          and this is <span className="purple-text">Portoflio.</span>
+          Empece en el mundo del desarrollo cuando tenia 14 años jugando con c++
+          creando juegos en la terminal, cuando descubri el desarrollo web
+          empece con las tecnologias basicas cono html, css y javascript
+          actualmente trabajo con <span className="white-text">Reactjs</span> y{" "}
+          <span className="white-text">Nodejs</span>
         </p>
-        <ul>
-          <li>React Developer</li>
-          <li>Ui/Ux Designer</li>
-          <li>Backedn Developer</li>
-        </ul>
       </div>
       <div className="about-right">
         <img src={iconImage} alt="" />
