@@ -1,0 +1,31 @@
+.container-bio-details {
+  position: absolute;
+  bottom: -40px;
+  left: 70px;
+  margin: 50px;
+  width: 170px;
+  padding: 1.5rem 1.4rem;
+  color: var(--white-color);
+  background: linear-gradient(var(--gray-color), var(--gray-color)) padding-box,
+    linear-gradient(to bottom, var(--purple-color), var(--purple-smoke-color))
+      border-box;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+
+.container-bio-details:hover {
+  transform: translateY(-10px);
+
+}
+
+.details-top {
+  margin: 5px 0;
+}
+
+.title-details {
+  color: var(--purple-color);
+}
+
+.details-bot {
+  margin: 10px 0;
+}
