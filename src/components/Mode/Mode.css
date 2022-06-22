@@ -1,8 +1,9 @@
 .container-mode {
   display: flex;
-  justify-content: end;
+  padding: 1rem 0;
+  justify-content: space-around;
   align-items: center;
-  color: var(--purple-smoke-color);
+  color: var(--white-color);
 }
 
 .container-icon {
@@ -10,15 +11,32 @@
   padding: 0.5rem 0.6rem;
   background: var(--gray-color);
   border-radius: 10px;
-  margin: 0 1rem;
 }
 
 .mode-icon {
   font-size: 20px;
 }
-
 .container-icon:hover {
   transition: 250ms;
   color: var(--gray-color);
   background: var(--gradient-color);
+}
+
+.mode-left ul {
+  display: flex;
+  list-style: none;
+}
+
+.mode-left ul li {
+  margin: 0 1rem;
+}
+
+
+.left-source {
+  display: flex;
+  align-items: center;
+}
+
+.source-icon {
+  padding-right: 5px;
 }
