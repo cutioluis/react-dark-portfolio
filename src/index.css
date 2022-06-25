@@ -24,6 +24,27 @@ body {
   color: var(--white-smoke-colorcolor);
 }
 
+a {
+  color: var(--purple-color);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0px;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--white-smoke-color);
+  border-radius: 20px;
+}
+
 .purple-text {
   font-weight: 600;
   color: var(--purple-color);
