@@ -1,4 +1,4 @@
-import { useState } from "react";
+import ReactTooltip from "react-tooltip";
 import { BioDetails } from "../BioDetails/BioDetails";
 import "./Bio.css";
 
@@ -10,20 +10,26 @@ export const Bio = () => {
     },
     {
       year: "2007",
-      description: "Trabaje creando user inferfaces usando figma",
+      description: "I use React and Redux to manage state of your application",
     },
     {
       year: "2016",
-      description: "Work as freelancer",
+      description: "I love work with Figma and Reactjs",
     },
   ];
 
   return (
     <section className="container container-lines">
+      <p className="purple-text">📚 Bio </p>
       <div className="line"></div>
       {bios.map((e) => (
-        <div className="lines-items">
-          <span className="gray-text text-bio">{e.description}</span>
+        <div key={e.year} className="lines-items">
+          <span className="gray-text" data-tip="React-tooltip">
+            {e.description}
+          </span>
+          <ReactTooltip place="top" effects="float" className="custom-theme">
+            <BioDetails />
+          </ReactTooltip>
           <div className="line"></div>
         </div>
       ))}
