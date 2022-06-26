@@ -1,3 +1,34 @@
-# Figma file
-✌ Construyendo esto https://www.figma.com/community/file/1045020215304419901
+<div align="center">
+  <img alt="Logo" src="https://raw.githubusercontent.com/cutioluis/react-dark-portfolio/master/public/favicon.ico" width="100" />
+</div>
+<h1 align="center">
+  @cutioluis | Reactjs Simple Portfolio
+</h1>
+<p align="center">
+ ⛏ Build and design by <a src="https://github.com/cutioluis">@cutioluis</a>
+  <img src="https://raw.githubusercontent.com/cutioluis/react-dark-portfolio/master/src/assets/dark-md.PNG" />
+</p>
+
+
+
+## 🛠 Installation & Set Up
+
+1. Git Clone 
+
+   ```sh
+   git clone 
+   ```
+
+2. Install npm dependencies
+
+   ```sh
+   npm install
+   ```
+
+3. Start the development server
+
+   ```sh
+   npm start
+   ```
+
 
