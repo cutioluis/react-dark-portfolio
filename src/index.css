@@ -1,12 +1,23 @@
 :root {
-  --black-color: #0d1117;
+  /* Dark Mode */
+  --black-color-bg: #0d1117;
   --gray-color: #161b22;
   --purple-color: #acb4fe;
   --purple-smoke-color: #cbbee7;
   --white-smoke-color: #8b949e;
   --white-color: #e5e5e5;
-
   --gradient-color: linear-gradient(99.51deg, #cbbee7 9.03%, #ffffff 89.53%);
+
+  /* Light Mode */
+  --white-color-bg: #e1e3f9;
+  --white-color-smoke-bg: #cdd0f3;
+  --purple-dark-color: #ae88fe;
+  --black-color: #212121;
+  --white-gradient-color: linear-gradient(
+    99.51deg,
+    #acb4fe 9.03%,
+    #ae88fe 89.53%
+  );
 }
 
 * {
@@ -15,7 +26,6 @@
 }
 
 body {
-  background-color: var(--black-color);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -24,25 +34,41 @@ body {
   color: var(--white-smoke-colorcolor);
 }
 
-a {
-  color: var(--purple-color);
+.dark-mode {
+  transition: 150ms;
+  background-color: var(--black-color-bg);
 }
 
-/* width */
-::-webkit-scrollbar {
-  width: 5px;
+.white-mode {
+  transition: 150ms;
+  background-color: var(--white-color-bg);
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 0px;
-  border-radius: 5px;
+.white-mode .header-title {
+  background: var(--white-gradient-color);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: var(--white-smoke-color);
-  border-radius: 20px;
+.white-mode a {
+  color: var(--purple-dark-color);
+}
+
+.white-mode .header-title-box {
+  background-color: var(--white-color-smoke-bg);
+  color: var(--black-color);
+}
+
+.white-mode .container-icon {
+  background-color: var(--white-color-smoke-bg);
+}
+
+.white-mode .mode-icon {
+  color: var(--purple-dark-color);
 }
 
 .purple-text {
@@ -57,6 +83,26 @@ a {
 
 .gray-text {
   color: var(--white-smoke-color);
+}
+
+.white-mode .purple-text {
+  color: var(--purple-dark-color);
+}
+
+.white-mode .gray-text {
+  color: var(--black-color);
+}
+
+.white-mode .white-text {
+  color: var(--black-color);
+}
+
+.white-mode .line {
+  background: linear-gradient(
+    180deg,
+    #e1e3f9 0%,
+    var(--purple-dark-color) 100%
+  );
 }
 
 .container {
