@@ -1,5 +1,5 @@
 import "./App.css";
-import ReactTooltip from "react-tooltip";
+import { useState } from "react";
 
 import Mode from "./components/Mode/Mode";
 import Header from "./components/Header/Header";
@@ -8,14 +8,20 @@ import { Bio } from "./components/Bio/Bio";
 import { Footer } from "./components/Footer/Footer";
 
 function App() {
+  const [whiteMode, setQuietMode] = useState(false);
+
+  const handleModeChange = () => {
+    setQuietMode(!whiteMode);
+  };
+
   return (
-    <>
-      <Mode />
+    <div className={whiteMode ? "white-mode" : "dark-mode"}>
+      <Mode handleModeChange={handleModeChange} />
       <Header />
       <About />
       <Bio />
       <Footer />
-    </>
+    </div>
   );
 }
 

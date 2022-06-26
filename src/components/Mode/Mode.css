@@ -3,23 +3,6 @@
   padding: 1rem 0;
   justify-content: space-around;
   align-items: center;
-  color: var(--white-color);
-}
-
-.container-icon {
-  cursor: pointer;
-  padding: 0.5rem 0.6rem;
-  background: var(--gray-color);
-  border-radius: 10px;
-}
-
-.mode-icon {
-  font-size: 20px;
-}
-.container-icon:hover {
-  transition: 250ms;
-  color: var(--gray-color);
-  background: var(--gradient-color);
 }
 
 .mode-left ul {
@@ -31,7 +14,6 @@
   margin: 0 1rem;
 }
 
-
 .left-source {
   display: flex;
   align-items: center;
@@ -39,4 +21,17 @@
 
 .source-icon {
   padding-right: 5px;
+}
+
+.container-icon {
+  cursor: pointer;
+  padding: 0.5rem 0.6rem;
+  border: none;
+  background: var(--gray-color);
+  border-radius: 10px;
+}
+
+.mode-icon {
+  color: var(--purple-smoke-color);
+  font-size: 20px;
 }

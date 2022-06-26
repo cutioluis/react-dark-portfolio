@@ -2,10 +2,10 @@ import "./Mode.css";
 import { RiSunFill } from "react-icons/ri";
 import { AiFillGithub } from "react-icons/ai";
 
-export default function Mode() {
+export default function Mode({ handleModeChange }) {
   return (
     <section className=" container-mode">
-      <div className="mode-left">
+      <div className="mode-left white-text">
         <ul>
           <li>Works</li>
           <li className="left-source">
@@ -15,9 +15,9 @@ export default function Mode() {
           <li>Me</li>
         </ul>
       </div>
-      <div className="container-icon">
+      <button onClick={handleModeChange} className="container-icon">
         <RiSunFill className="mode-icon" />
-      </div>
+      </button>
     </section>
   );
 }
