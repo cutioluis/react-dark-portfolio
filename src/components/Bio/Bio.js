@@ -5,16 +5,16 @@ import "./Bio.css";
 export const Bio = () => {
   const bios = [
     {
-      year: "2005",
-      description: "I Work at Seplom with tech like Reactjs",
+      year: "",
+      description: "Trabaje en Seplom",
     },
     {
-      year: "2007",
-      description: "I use React and Redux to manage state of your application",
+      year: "",
+      description: "Uso reactjs y Redux para manejar el estado",
     },
     {
-      year: "2016",
-      description: "I love work with Figma and Reactjs",
+      year: "",
+      description: "Me encanta trabajar diseñando interfaces con Figma",
     },
   ];
 
