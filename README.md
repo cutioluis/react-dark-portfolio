@@ -3,9 +3,8 @@
  - Paginacion para ver otros proyectos
 [![new](https://raw.githubusercontent.com/cutioluis/react-dark-portfolio/master/src/assets/new-feature.PNG "new")](https://raw.githubusercontent.com/cutioluis/react-dark-portfolio/master/src/assets/new-feature.PNG "new")
 
-<div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/cutioluis/react-dark-portfolio/master/public/favicon.ico" width="100" />
-</div>
+⬛ [Figma](https://www.figma.com/file/MXTISVrnKYVVz6NCqQVHJU/React-Developer?node-id=0%3A1 "Figma")
+
 <h1 align="center">
   @cutioluis | Reactjs Simple Portfolio
 </h1>
@@ -13,6 +12,8 @@
  ⛏ Build and design by <a src="https://github.com/cutioluis">@cutioluis</a>
   <img src="https://raw.githubusercontent.com/cutioluis/react-dark-portfolio/master/src/assets/dark-md.PNG" />
 </p>
+
+
 
 
 
