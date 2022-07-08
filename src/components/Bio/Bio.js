@@ -5,25 +5,29 @@ import "./Bio.css";
 export const Bio = () => {
   const bios = [
     {
-      year: "",
-      description: "Trabaje en Seplom",
+      year: 2018,
+      description: "Trabaje en @Seplom",
     },
     {
-      year: "",
-      description: "Uso reactjs y Redux para manejar el estado",
+      year: 2019,
+      description: "Cree @Worlo_Studio que brinda servicios de diseño",
     },
     {
-      year: "",
-      description: "Me encanta trabajar diseñando interfaces con Figma",
+      year: 2021,
+      description: "Termine la carrera de platzi de Diseño UI",
     },
   ];
 
   return (
     <section className="container container-lines">
-      <p className="purple-text">📚 Bio </p>
+      <p className="purple-text">
+        📚 Bio <span className="purple-smoke-text">-Asì empecè</span>{" "}
+      </p>
       <div className="line"></div>
       {bios.map((e) => (
         <div key={e.year} className="lines-items">
+          <span className="white-text">{e.year}: </span>
+          {""}
           <span className="gray-text" data-tip="React-tooltip">
             {e.description}
           </span>
@@ -36,3 +40,5 @@ export const Bio = () => {
     </section>
   );
 };
+
+//Disable Spanish Spell Checker Dictionary in Workspace
