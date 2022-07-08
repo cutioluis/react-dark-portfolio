@@ -1,4 +1,8 @@
-....working⛏⛏
+🎉 (construyendo )Agrege nuevo componente donde muestra un proyecto 
+ - Para el futuro incluir api de Github
+ - Paginacion para ver otros proyectos
+[![new](https://raw.githubusercontent.com/cutioluis/react-dark-portfolio/master/src/assets/new-feature.PNG "new")](https://raw.githubusercontent.com/cutioluis/react-dark-portfolio/master/src/assets/new-feature.PNG "new")
+
 <div align="center">
   <img alt="Logo" src="https://raw.githubusercontent.com/cutioluis/react-dark-portfolio/master/public/favicon.ico" width="100" />
 </div>
