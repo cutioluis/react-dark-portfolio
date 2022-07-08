@@ -3,7 +3,7 @@
   --black-color-bg: #0d1117;
   --gray-color: #161b22;
   --purple-color: #acb4fe;
-  --purple-smoke-color: #cbbee7;
+  --purple-smoke-color: #CDD0F3;
   --white-smoke-color: #8b949e;
   --white-color: #e5e5e5;
   --gradient-color: linear-gradient(99.51deg, #cbbee7 9.03%, #ffffff 89.53%);
@@ -72,8 +72,11 @@ body {
 }
 
 .purple-text {
-  font-weight: 600;
   color: var(--purple-color);
+}
+
+.purple-smoke-text {
+  color: var(--purple-smoke-color);
 }
 
 .white-text {
@@ -108,7 +111,7 @@ body {
 .container {
   position: relative;
   width: auto;
-  max-width: 50rem;
+  max-width: 40rem;
   padding: 0 1.5rem;
   margin: 0 auto;
 }

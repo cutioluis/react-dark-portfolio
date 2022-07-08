@@ -1,0 +1,73 @@
+.container-project {
+  margin-top: 8rem;
+}
+
+.project-header {
+  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-box {
+  border-radius: 10px;
+  max-width: 60%;
+  padding: 1.5rem;
+  background-color: var(--gray-color);
+}
+
+.text-box {
+  margin-top: 0.3rem;
+}
+
+.project-line {
+  position: relative;
+  left: 10px;
+  bottom: -40px;
+}
+
+/* Details */
+
+.project-details {
+  margin: 3rem 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.details-left {
+  margin: 0 2rem;
+}
+
+.text-figma {
+  cursor: pointer;
+  color: var(--white-color);
+  display: inline-flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.icon-figma {
+  width: 10px;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.details-stack {
+   margin: 3rem 1rem;
+}
+
+@media (max-width: 425px) {
+  .project-details {
+    justify-content: center;
+  }
+  .project-header {
+    justify-content: center;
+  }
+
+  .project-box {
+    max-width: 100%;
+  }
+
+  .details-left {
+    margin: 0;
+  }
+}
