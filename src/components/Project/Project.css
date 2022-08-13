@@ -42,17 +42,34 @@
   color: var(--white-color);
   display: inline-flex;
   align-items: center;
-  margin-left: 10px;
+}
+
+.text-figma:hover {
+  transition: 350ms;
+  background: linear-gradient(
+    90deg,
+    #f24e1e 2.73%,
+    #a259ff 37.68%,
+    #13c5c6 71.63%,
+    #0acf83 100%
+  );
+  background-size: 400vh;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  animation: text-move infinite 3s alternate;
 }
 
 .icon-figma {
   width: 10px;
-  margin-right: 10px;
-  margin-left: 5px;
+  margin-right: 5px;
+  margin-left: 10px;
 }
 
 .details-stack {
-   margin: 3rem 1rem;
+  margin: 3rem 1rem;
 }
 
 @media (max-width: 425px) {
@@ -69,5 +86,15 @@
 
   .details-left {
     margin: 0;
+  }
+}
+
+@keyframes text-move {
+  0% {
+    background-position: left;
+  }
+
+  100% {
+    background-position: right;
   }
 }

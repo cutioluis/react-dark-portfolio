@@ -11,7 +11,7 @@
   list-style: none;
 }
 
-.mode-left ul li {  
+.mode-left ul li {
   margin: 0 1.5rem;
 }
 
@@ -34,10 +34,10 @@
 
 .mode-icon {
   color: var(--purple-smoke-color);
-  font-size: 20px;
+  font-size: 18px;
 }
 
-
+/* Link Githuv */
 a {
   display: inline-flex;
   align-items: center;
@@ -59,7 +59,6 @@ a {
   bottom: 0;
   left: 0;
 }
-
 
 .link-decoration::after {
   background: white;

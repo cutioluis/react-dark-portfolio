@@ -17,6 +17,7 @@
 }
 
 .custom-theme {
+  background: #161b22 !important;
   border: 1px solid var(--purple-color) !important;
   border-radius: 10px !important;
 }

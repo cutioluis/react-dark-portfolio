@@ -1,28 +1,10 @@
 .container-bio-details {
   text-align: start;
+  max-width: 180px;
+  padding:  0.5rem;
   font-size: 16px;
 }
 
-.title-details {
-  margin-bottom: 8px;
-  color: var(--purple-color);
-}
-
-.details-top {
-  margin: 10px;
-}
-
-.details-top li {
-  list-style-type: none;
-}
-
-.details-bot {
-  margin: 20px 10px;
-}
-
-.bot-icon {
-  cursor: pointer;
-  padding-top: 5px;
-  padding-right: 5px;
-  font-size: 20px;
+.details-items {
+  margin: 0.5rem 0;
 }

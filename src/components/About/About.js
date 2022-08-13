@@ -3,7 +3,7 @@ import iconImage from "../../images/logo.jpg";
 
 export const About = () => {
   return (
-    <section className="container container-about">
+    <section id="about" className="container container-about">
       <div className="about-left">
         <span className="purple-text">
           ✋Luis Cutiopala{" "}

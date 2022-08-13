@@ -3,7 +3,7 @@
   --black-color-bg: #0d1117;
   --gray-color: #161b22;
   --purple-color: #acb4fe;
-  --purple-smoke-color: #CDD0F3;
+  --purple-smoke-color: #cdd0f3;
   --white-smoke-color: #8b949e;
   --white-color: #e5e5e5;
   --gradient-color: linear-gradient(99.51deg, #cbbee7 9.03%, #ffffff 89.53%);
@@ -23,6 +23,7 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -98,6 +99,22 @@ body {
 
 .white-mode .white-text {
   color: var(--black-color);
+}
+
+.white-mode .purple-smoke-text {
+  color: var(--gray-color);
+}
+
+.white-mode .project-box {
+  background-color: var(--purple-smoke-color);
+}
+
+.white-mode .link-decoration {
+  color: var(--purple-dark-color);
+}
+
+.white-mode .icon-change{
+  color: var(--purple-dark-color);
 }
 
 .white-mode .line {

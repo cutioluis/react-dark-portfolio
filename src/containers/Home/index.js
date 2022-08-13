@@ -17,7 +17,7 @@ function Home() {
 
   return (
     <div className={whiteMode ? "white-mode" : "dark-mode"}>
-      <Mode handleModeChange={handleModeChange} />
+      <Mode setMode={whiteMode} handleModeChange={handleModeChange} />
       <Header />
       <About />
       <Bio />

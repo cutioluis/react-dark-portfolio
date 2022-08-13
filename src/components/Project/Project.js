@@ -6,7 +6,7 @@ import FigmaIcon from "../../images/figma-icon.svg";
 
 function Project() {
   return (
-    <section className="container container-project">
+    <section id="projects" className="container container-project">
       <p className="purple-text">
         ‍💻 Open Source -
         <span className="purple-smoke-text">Visita mis ultimos proyectos </span>{" "}
@@ -26,10 +26,8 @@ function Project() {
         <div className="details-left">
           <p className="gray-text">
             Mira el diseño de este proyecto en
-            <span className="text-figma">
-              <img className="icon-figma" src={FigmaIcon} alt="" />
-              Figma
-            </span>
+            <img className="icon-figma" src={FigmaIcon} alt="" />
+            <span className="text-figma">Figma</span>
           </p>
           <div className="details-stack">
             <span className="white-text">Tecnologias</span>
@@ -39,8 +37,10 @@ function Project() {
               <li>Nodejs</li>
             </ul>
           </div>
-          <p className="gray-text">Una estrellita en <span className="white-text">Github</span> y mira en vivo la <span className="white-text">Web</span> </p>
-
+          <p className="gray-text">
+            Una estrellita en <span className="white-text">Github</span> y mira
+            en vivo la <span className="white-text">Web</span>{" "}
+          </p>
         </div>
       </div>
     </section>
